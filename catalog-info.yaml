@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: tanzu-dotnet-web-app
+  name: tanzu-steeltoe-web-app
   description: Tanzu .NET Web App
   tags:
     - app-accelerator
@@ -9,7 +9,7 @@ metadata:
     - web
     - tanzu
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tanzu-dotnet-web-app'
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tanzu-steeltoe-web-app'
 spec:
   type: service
   lifecycle: experimental
